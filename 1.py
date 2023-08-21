@@ -45,3 +45,7 @@ for i in range(1_000_000):
     counter('queue')
 end = time.time()
 print(end - start)
+
+
+
+
