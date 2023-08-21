@@ -12,6 +12,13 @@ p {
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-style: italic;
 }
+p { 
+    font-style: italic; 
+    text-align: center; 
+    font-size: 24px; 
+    color: green; 
+    text-shadow: 2px 2px 2px green; 
+    } 
 
 span{
     font-weight: bold;
