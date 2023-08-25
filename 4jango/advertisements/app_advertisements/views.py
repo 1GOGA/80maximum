@@ -1,7 +1,10 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.http import HttpResponse
+
 
 def example(requests):
-    return HttpResponse("Чё зашел, тут ничего интерестного")
+    return render(requests, "index.html")
+
+def top_sellers(requests):
+    return render(requests, "top-sellers.html")
