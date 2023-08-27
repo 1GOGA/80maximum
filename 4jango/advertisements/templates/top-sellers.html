@@ -1,19 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-  {% extends "base.html" %}
-  {% load static %}
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/fontello.css">
   <title>{% block title %}Main{% endblock %}</title>
 </head>
 
 <body>
-  {% block content%}
+  {% block content %}
   <ul class="nav nav-pills sticky-top bg-white nav-fill">
     <li class="nav-item">
       <a class="nav-link"  href="{% url 'main-page' %}">
@@ -115,7 +114,7 @@
     </nav>
   </footer>
   {% endblock%}
-  <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

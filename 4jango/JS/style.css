@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+.add{
+    border: none;
+    background: wheat;
+    color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+
+}

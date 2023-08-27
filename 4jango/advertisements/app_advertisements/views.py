@@ -8,3 +8,4 @@ def example(requests):
 
 def top_sellers(requests):
     return render(requests, "top-sellers.html")
+
